@@ -48,9 +48,9 @@ CellMap.prototype.createCell = function(i) {
 };
 CellMap.prototype.field = function(x, y) {
 	if (!arguments.length) return this.items;
-	x = Math.abs(Math.floor(parseInt(cols, 10)));
-	y = Math.abs(Math.floor(parseInt(rows, 10)));
-	if ((x < 0) || (x >= this.colt)) return null;
+	x = Math.abs(Math.floor(parseInt(x, 10)));
+	y = Math.abs(Math.floor(parseInt(y, 10)));
+	if ((x < 0) || (x >= this.cols)) return null;
 	if ((y < 0) || (y >= this.rows)) return null;
 	return this.items[y * this.cols + x]
 };
