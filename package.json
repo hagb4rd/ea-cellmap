@@ -1,0 +1,26 @@
+{
+  "name": "ea-cellmap",
+  "version": "0.0.1",
+  "description": "\"# ea-cellmap\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagb4rd/ea-cellmap.git"
+  },
+  "keywords": [
+    "tilemap",
+    "cellmap",
+    "map",
+    "board",
+    "tiles"
+  ],
+  "author": "hagb4rd@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hagb4rd/ea-cellmap/issues"
+  },
+  "homepage": "https://github.com/hagb4rd/ea-cellmap#readme"
+}
