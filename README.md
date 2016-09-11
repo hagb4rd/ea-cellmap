@@ -1,14 +1,17 @@
 # ea-cellmap
 
-* contact earendel [hagb4rd@gmail.com]
+##### Contact 
+* mail - earendel@wolke7.net
+* chat - http://bit.ly/irc-javascript
 
-## Install
+
+### Install
 
 ` npm install ea-cellmap --save `
 
-## Usage
+### Usage
 
-```
+```javascript
 
 //require module
 var CellMap = require('ea-cellmap');
@@ -27,7 +30,7 @@ cell(0,1).cells.right;
 
 ```
 
-## Source Code
+### Source Code
 
 ```javascript
 
@@ -41,7 +44,6 @@ function CellMap(cols, rows) {
 };
 
 CellMap.prototype.createCell = function(i) {
-
 	var self = this;
 	i = i || 0;
 	var cell = {
@@ -101,6 +103,8 @@ CellMap.create = function(cols, rows) {
 	f.inspect = () => util.inspect(f.cellMap);
 	return f;
 };
+
+CellMap.help = " https://github.com/hagb4rd/ea-cellmap ";
 
 module.exports = CellMap;
 

@@ -64,5 +64,6 @@ CellMap.create = function(cols, rows) {
 	f.inspect = () => util.inspect(f.cellMap);
 	return f;
 };
+CellMap.help = " https://github.com/hagb4rd/ea-cellmap ";
 
 module.exports = CellMap;
